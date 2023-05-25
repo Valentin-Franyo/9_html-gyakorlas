@@ -1,0 +1,12 @@
+.button {
+    background-color: skyblue;
+    font-size: 30px;
+    text-decoration: none;
+   border-radius: 40px 40px 40px 40px;
+ }
+
+ body {
+    text-align: center;
+    background-color: gray;
+   font-size: xx-large;
+ }

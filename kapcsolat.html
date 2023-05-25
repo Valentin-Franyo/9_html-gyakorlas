@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kapcsolat</title>
+    <link rel="stylesheet" href="kapcsolat.css" />
+  </head>
+  <header>
+    <nav><a class="button" href="index.html">Vissza a fooldalra</a></nav>
+  </header>
+  <body>
+    <p><strong>Egy kis izelito a kedvenc biciklizesi stilusomrol </strong></p>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/gjUXl5OVYu4"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <form action="https://formspree.io/f/moqzzwgn" method="post">
+      <article><h5>Egy kis felmeres,toltsd ki ha gondolod</h5></article>
+      <p>Szoktal biciklizni?</p>
+      <label>
+        <input type="radio" name="option" value="igen" />
+        Igen
+      </label>
+      <label>
+        <input type="radio" name="option" value="nem" />
+        Nem
+      </label>
+
+      <p>Melyik kerekmeretet preferalod jobban?</p>
+      <section>
+        <label>
+          <select name="Kerekmeret" id="kerekmeret">
+            <option value="20">20</option>
+            <option value="24">24</option>
+            <option value="26">26</option>
+            <option value="27.5">27.5</option>
+            <option value="29">29</option>
+          </select>
+        </label>
+      </section>
+
+      <input type="Keresztnev" name="Keresztnev" placeholder="Keresztnev" />
+      <input type="email" name="email" id="email" placeholder="email" />
+      <input type="submit" value="Bekuldes" />
+    </form>
+  </body>
+</html>

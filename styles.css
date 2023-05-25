@@ -1,0 +1,54 @@
+
+#logo {
+    position: absolute;
+  top: 0;
+  right: 0;
+  }
+
+ .button {
+    background-color: skyblue;
+    font-size: 30px;
+    text-decoration: none;
+   border-radius: 40px 40px 40px 40px;
+ }
+
+ .quote {
+    font-size:xx-large;
+ }
+
+ul {
+    text-align: left;
+    
+}
+
+ol {
+    text-align: left;
+}
+
+table  td  {
+    margin: 0 auto;
+    border: 3px solid whitesmoke;
+
+}
+
+body {
+    background-image: url(images/ROG-Swift-PG42UQ-Wallpaper-FHD.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h2,h3 {
+    text-align: left;
+    color: aquamarine;
+}
+
+h4 {
+    color: aquamarine;
+}
+body h1{
+    color:aquamarine;
+}
+
+body {
+    color:white;
+}
